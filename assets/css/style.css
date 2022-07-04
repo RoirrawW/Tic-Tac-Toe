@@ -1,0 +1,117 @@
+@font-face {
+    font-family: Fredoka;
+    src: url(../fonts/FredokaOne-Regular.ttf);
+}
+
+* {
+    font-family: Fredoka;
+    color: white;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(325deg, #285fc5 0%, #7a2aaf 50%, #be1640 100%);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    font-size: 4em;
+    text-align: center;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px 2px rgb(50, 50, 50);
+}
+
+section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+article {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.case {
+    width: 130px;
+    height: 130px;
+    border-color: white;
+    background-color: transparent;
+    padding: 0;
+    font-size: 100px;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    border: 2px solid white;
+    text-transform: capitalize;
+}
+
+#cell1 {
+    border-color: transparent white white transparent;
+}
+
+#cell2 {
+    border-color: transparent white white white;
+}
+
+#cell3 {
+    border-color: transparent transparent white white;
+}
+
+#cell4 {
+    border-color: white white white transparent;
+}
+
+#cell6 {
+    border-color: white transparent white white
+}
+
+#cell7 {
+    border-color: white white transparent transparent
+}
+
+#cell8 {
+    border-color: white white transparent white
+}
+
+#cell9 {
+    border-color: white transparent transparent white
+}
+
+h2 {
+    letter-spacing: 3px;
+    font-size: 2.5em;
+    text-shadow: 2px 2px 20px rgb(0, 0, 0);
+}
+
+button {
+    border-radius: 15px;
+    background: rgb(30, 30, 30);
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: 0;
+    font-size: 2em;
+    text-shadow: 1px 1px 2px rgb(50, 50, 50);
+    cursor: pointer;
+}
+
+#restart {
+    margin: 20px;
+}
+
+#settings {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
